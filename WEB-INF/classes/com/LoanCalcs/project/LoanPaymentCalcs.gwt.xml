@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='loanpaymentcalcs'>
+
+  <inherits name='com.google.gwt.user.User'/>
+  
+  <inherits name='com.google.gwt.user.theme.standard.Standard'/>
+  
+  <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
+  <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
+  
+  <inherits name="com.google.gwt.i18n.I18N" />
+  <inherits name="com.smartgwt.SmartGwt"/>
+  <entry-point class='com.LoanCalcs.project.client.LoanPaymentCalcs'/>
+  
+  <source path='client'/>
+  <source path='shared'/>
+
+</module>
